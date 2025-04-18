@@ -1,4 +1,6 @@
-Below are the sample image of the website to fully run kindly clone the website
+Below are the sample image of the website 
+There are redirections and also subtle feedback animation for mouse hover and hyperlinks.
+to have the full experience kindly clone the website to your local machine
 ![image](https://github.com/user-attachments/assets/693c4179-7458-4f3d-b578-90e9eaf0db4a)
 ![image](https://github.com/user-attachments/assets/9ad45d02-a2cc-48e5-8d73-f63e421f3431)
 ![image](https://github.com/user-attachments/assets/37f04828-f29d-4064-a0b5-f00515ebde71)
