@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RBPortfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <ul class="navlist">
+                <li><a href="#contact" class="navigation">Contact</a></li>
+                <li><a href="#projects" class="navigation">Projects</a></li>
+                <li><a href="#skills" class="navigation">Skills</a></li>
+                <li><a href="#about" class="navigation">About</a></li>
+                <li><a href="#home" class="navigation">Home</a></li>
+                <li><a href="#home" id="rbp">RBP</a></li>
+            </ul>
+        </nav>
+        <div id="home" style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
+            <div style="flex: 1; min-width: 300px;">
+                <h1 style="font-size: 40px;">Hello there! I am</h1>
+                <h2 style="font-size: 80px;">Remwell B. Pepito</h2>
+                <div id="description"></div>
+                <p lang="en">Future graduate of <strong class="important"> Xavier University Ateneo de Cagayan</strong>, Batch
+                    2026</p>
+                <p lang="en">Future <strong class="important">Network Administrator</strong></p>
+                <p lang="en">Future <strong class="important">Cum Laude Graduate</strong></p>
+                <p lang="en"><strong class="important">CCNA Certified</strong></p>
+                <button id="start" style="text-decoration: none; color: #1D1E2C" onclick="location.href='#about'">Let's Start</button>
+            </div>
+            <div style="flex: 1; display: flex; justify-content: center; align-items: center; min-width: 300px;">
+                <img src="assets/profile.png" alt="Remwell Pepito standing in shallow water wearing a blue uniform"
+                    style="width: 300px; height: 300px; border-radius: 20px; max-width: 100%; object-fit: cover;">
+            </div>
+        </div>
+        <div id="about">
+            <div>
+                <h2 style="margin-bottom: 100px; text-align: center;user-select: none;">ABOUT <span style="color: #9C528B;">ME</span></h2>
+            </div>
+            <div class="about-container" style="display: flex; justify-content: center; align-items: center; gap: 40px; flex-wrap: wrap;">
+                <div style="flex: 1; min-width: 300px; display: flex; align-items: center; justify-content: center;">
+                    <img src="assets/about.png" alt="Scenic view of a university campus with trees and pathways" style="width: 100%; max-width: 450px; height: auto; border-radius: 10px; object-fit: cover;">
+                </div>
+                <div class="about-text" style="flex: 1; max-width: 1000px; text-align: left;">
+                    <p lang="en">Hi! I am Remwell B. Pepito, a future graduate of Xavier University Ateneo de Cagayan, Batch 2026.
+                        I am a dedicated and passionate student with a strong interest in network administration and
+                        cybersecurity. I have a solid foundation in programming languages such as Python, Java, HTML,
+                        CSS, and JavaScript. I am also proficient in SQL and have experience with Django for web
+                        development.</p>
+                    <p lang="en">I am committed to continuous learning and growth in the field of technology. I believe that my
+                        skills and knowledge will enable me to contribute effectively to any team or project.</p>
+                </div>
+            </div>
+        </div>  
+        <div id="skills">
+            <div>
+                <h2 style="margin-bottom: 40px; text-align: center;">TECHNICAL <span style="color: #9C528B;">SKILLS</span></h2>
+            </div>
+            <div class="tech-icons" style="display: flex; justify-content: center; flex-wrap: wrap; gap: 30px; margin-bottom: 60px;">
+                <div class="tech-icon" style="text-align: center;">
+                    <i class="fa-brands fa-python" style="font-size: 50px; color: #9C528B;" aria-hidden="true"></i>
+                    <p lang="en">Python</p>
+                </div>
+                <div class="tech-icon" style="text-align: center;">
+                    <i class="fa-brands fa-java" style="font-size: 50px; color: #9C528B;" aria-hidden="true"></i>
+                    <p lang="en">Java</p>
+                </div>
+                <div class="tech-icon" style="text-align: center;">
+                    <i class="fa-brands fa-html5" style="font-size: 50px; color: #9C528B;" aria-hidden="true"></i>
+                    <p lang="en">HTML</p>
+                </div>
+                <div class="tech-icon" style="text-align: center;">
+                    <i class="fa-brands fa-css3-alt" style="font-size: 50px; color: #9C528B;" aria-hidden="true"></i>
+                    <p lang="en">CSS</p>
+                </div>
+                <div class="tech-icon" style="text-align: center;">
+                    <i class="fa-brands fa-js" style="font-size: 50px; color: #9C528B;" aria-hidden="true"></i>
+                    <p lang="en">JavaScript</p>
+                </div>
+                <div class="tech-icon" style="text-align: center;">
+                    <i class="fa-solid fa-database" style="font-size: 50px; color: #9C528B;" aria-hidden="true"></i>
+                    <p lang="en">SQL</p>
+                </div>
+                <div class="tech-icon" style="text-align: center;">
+                    <i class="fa-brands fa-python" style="font-size: 50px; color: #9C528B;" aria-hidden="true"></i>
+                    <p lang="en">Django</p>
+                </div>
+            </div>
+            <div class="cards-container" style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; text-align: center;">
+                <div class="card">
+                    <h2 class="card-title" lang="en">Network Administration</h2>
+                    <p class="card-p" lang="en">Proficient in configuring and maintaining network
+                        infrastructure, troubleshooting connectivity issues, and implementing security protocols.</p>
+                </div>
+                <div class="card">
+                    <h2 class="card-title" lang="en">System Administration</h2>
+                    <p class="card-p" lang="en">Experience with server configuration, user management, and
+                        system optimization for maximum performance and security.</p>
+                </div>
+                <div class="card">
+                    <h2 class="card-title" lang="en">Cybersecurity</h2>
+                    <p class="card-p" lang="en">Knowledge of security best practices, vulnerability
+                        assessment, and implementing protective measures against common threats.</p>
+                </div>
+            </div>
+        </div>
+        <div id="projects">
+            <div>
+                <h2 style="margin-bottom: 100px; text-align: center;color: #000000;">MY PROJECTS</h2>
+            </div>
+            <div class="cards-container" style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; text-align: center;">
+                <div class="project-card">
+                    <h2 class="card-title" lang="en">OSA and SSIO Entry Violation System</h2>
+                    <p class="card-p" lang="en">A digital system for tracking and managing entry violations for the Office of Student Affairs and Student Services Information Office.</p>
+                </div>
+                <div class="project-card">
+                    <h2 class="card-title" lang="en">XU Library Confab Reservation System</h2>
+                    <p class="card-p" lang="en">An online platform for booking and managing conference room reservations at the Xavier University Library.</p>
+                </div>
+                <div class="project-card">
+                    <h2 class="card-title" lang="en">BeePack Ecommerce</h2>
+                    <p class="card-p" lang="en">A fully-functional e-commerce platform for selling packaging products with inventory management and order processing capabilities.</p>
+                </div>
+                <div class="project-card">
+                    <h2 class="card-title" lang="en">Concert Ticketing System</h2>
+                    <p class="card-p" lang="en">A secure concert ticket booking system with seat selection, payment processing, and QR code ticket generation.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="contact-container">
+            <h2 style="margin-bottom: 40px; text-align: center;">CONTACT <span style="color: #9C528B;">ME</span></h2>
+            <p lang="en" style="max-width: 600px; margin: 0 auto 40px;">Feel free to get in touch with me. I'm always open to discussing new projects, opportunities, or just chatting about technology.</p>
+            
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fa-solid fa-envelope contact-icon" aria-hidden="true"></i>
+                    <h3 lang="en">Email</h3>
+                    <p class="contact-text" lang="en">remwell@example.com</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fa-solid fa-phone contact-icon" aria-hidden="true"></i>
+                    <h3 lang="en">Phone</h3>
+                    <p class="contact-text" lang="en">+63 123 456 7890</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fa-solid fa-location-dot contact-icon" aria-hidden="true"></i>
+                    <h3 lang="en">Location</h3>
+                    <p class="contact-text" lang="en">Cagayan de Oro City, Philippines</p>
+                </div>
+            </div>
+            
+            <div class="social-icons">
+                <a href="https://github.com/RemPepito" title="GitHub - Remwell Pepito" class="social-icon"><i class="fa-brands fa-github" aria-hidden="true"></i><span class="sr-only">GitHub</span></a>
+                <a href="https://facebook.com/remwellpepito" title="Facebook - Remwell Pepito" class="social-icon"><i class="fa-brands fa-facebook" aria-hidden="true"></i><span class="sr-only">Facebook</span></a>
+                <a href="https://instagram.com/remwellpepito" title="Instagram - Remwell Pepito" class="social-icon"><i class="fa-brands fa-instagram" aria-hidden="true"></i><span class="sr-only">Instagram</span></a>
+                <a href="https://linkedin.com/in/remwellpepito" title="LinkedIn - Remwell Pepito" class="social-icon"><i class="fa-brands fa-linkedin" aria-hidden="true"></i><span class="sr-only">LinkedIn</span></a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
